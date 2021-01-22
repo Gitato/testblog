@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 //Route::get('/','PostController@info');
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 Route::get('/home', 'PostController@index')->name('home');
 Route::middleware(['auth'])->group(function () {
     Route::get('new-post', 'PostController@create')->name('create');

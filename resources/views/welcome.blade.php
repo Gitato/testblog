@@ -69,7 +69,6 @@
                 <div class="top-right links">
                     @auth
                         <a href="{{ route('home') }}">Home</a>
-{{--                        <a href="{{ route('posts.index') }}">Posts</a>--}}
                     @else
                         <a href="{{ route('home') }}">Home</a>
                         <a href="{{ route('login') }}">Login</a>
@@ -82,10 +81,12 @@
             @endif
 
             <div class="content">
+                {{CalculatorService::setVariables(4,2)}}
+                {{CalculatorService::setOperation(new \App\Services\Multiply())}}
+                {{CalculatorService::result()}}
                 <div class="title m-b-md">
                     Laravel
                 </div>
-
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>

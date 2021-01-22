@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Calculator;
-use App\Subtraction;
-use App\Segregation;
-use App\Summary;
-use App\Multiply;
+use App\Services\Calculator;
+use App\Services\Subtraction;
+use App\Services\Segregation;
+use App\Services\Summary;
+use App\Services\Multiply;
 use Illuminate\Http\Request;
-use App\Repositories\Interfaces\OperationInterface;
+use App\Services\Interfaces\OperationInterface;
 
 class CalculatorController extends Controller
 {
@@ -46,9 +46,8 @@ class CalculatorController extends Controller
 public function final()
 {
     $calculator=new Calculator;
-    $calculator->setVariables(array(6,2));
-    $calculator->setOperation(new Subtraction());
-
+    $calculator->setVariables(8,2);
+    $calculator->setOperation(new Multiply());
     echo $calculator->result();
 }
 
