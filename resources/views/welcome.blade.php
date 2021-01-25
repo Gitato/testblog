@@ -81,9 +81,7 @@
             @endif
 
             <div class="content">
-                {{CalculatorService::setVariables(4,2)}}
-                {{CalculatorService::setOperation(new \App\Services\Multiply())}}
-                {{CalculatorService::result()}}
+                {{CalculatorService::setOperands(4,2)->run('multiplication')}}
                 <div class="title m-b-md">
                     Laravel
                 </div>

@@ -1,7 +1,10 @@
 <?php
 
-namespace App\Providers;
+namespace App\Services\Calculator;
 
+use App\Services\Calculator\Calculator;
+use App\Services\Calculator\Interfaces\OperationFactoryInterface;
+use App\Services\Calculator\OperationFactory;
 use App\Services\Multiply;
 use Illuminate\Support\ServiceProvider;
 
@@ -14,19 +17,9 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerCalculator();
-//        $this->registerMultiply();
+        $this->app->bind(OperationFactoryInterface::class, OperationFactory::class);
+        $this->app->bind('Calculator', Calculator::class);
     }
-
-    public function registerCalculator()
-    {
-        $this->app->bind('Calculator','App\Services\Calculator');
-    }
-
-//    public function registerMultiply()
-//    {
-//        $this->app->bind('Multiply', 'App\Services\Multiply');
-//    }
 
     /**
      * Bootstrap services.
