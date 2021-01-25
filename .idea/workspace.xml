@@ -20,23 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da9337f3-a17d-4afd-88a3-8b497f3913bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Services/Calculator/Exceptions/CalculatorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Calculator/Exceptions/DivisionByZeroException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Calculator/Exceptions/UnknownOperationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Calculator/Interfaces/OperationFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Calculator/OperationFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Addition.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/CalculatorServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/CalculatorServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Calculator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Interfaces/OperationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Interfaces/OperationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Multiply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Multiplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Segregation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Division.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Subtraction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Subtraction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Summary.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Calculator/OperationFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/OperationFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +202,7 @@
       <workItem from="1610529686769" duration="864000" />
       <workItem from="1610542130234" duration="41142000" />
       <workItem from="1611230008660" duration="13485000" />
-      <workItem from="1611561005943" duration="6496000" />
+      <workItem from="1611561005943" duration="6937000" />
     </task>
     <servers />
   </component>

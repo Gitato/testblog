@@ -16,7 +16,6 @@ use App\Services\Subtraction;
  */
 class OperationFactory implements OperationFactoryInterface
 {
-//addition subtraction multiplication division
 
     const MULTIPLICATION_OPERATION = 'multiplication';
     const DIVISION_OPERATION = 'division';
