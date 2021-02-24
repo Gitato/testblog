@@ -1,5 +1,5 @@
 <?php
-namespace App\Services\Calculator;
+namespace App\Services\Calculator\Operations;
 use App\Services\Calculator\Exceptions\DivisionByZeroException;
 use App\Services\Calculator\Interfaces\OperationInterface;
 

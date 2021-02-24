@@ -5,7 +5,6 @@ namespace App\Services\Calculator;
 use App\Services\Calculator\Calculator;
 use App\Services\Calculator\Interfaces\OperationFactoryInterface;
 use App\Services\Calculator\OperationFactory;
-use App\Services\Multiply;
 use Illuminate\Support\ServiceProvider;
 
 class CalculatorServiceProvider extends ServiceProvider

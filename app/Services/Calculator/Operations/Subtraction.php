@@ -1,5 +1,5 @@
 <?php
-namespace App\Services;
+namespace App\Services\Calculator\Operations;
 use App\Services\Calculator\Interfaces\OperationInterface;
 
 class Subtraction implements OperationInterface

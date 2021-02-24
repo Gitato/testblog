@@ -5,10 +5,14 @@ namespace App\Services\Calculator;
 
 
 use App\Services\Calculator\Exceptions\UnknownOperationException;
-use App\Services\Calculator\Operations\Addition;
 use App\Services\Calculator\Interfaces\OperationFactoryInterface;
 use App\Services\Calculator\Interfaces\OperationInterface;
-use App\Services\Subtraction;
+use App\Services\Calculator\Operations\Addition;
+use App\Services\Calculator\Operations\Subtraction;
+use App\Services\Calculator\Operations\Multiplication;
+use App\Services\Calculator\Operations\Division;
+use App\Services\Calculator\Operations\Exponentiation;
+
 
 /**
  * Class OperationFactory
@@ -21,6 +25,7 @@ class OperationFactory implements OperationFactoryInterface
     const DIVISION_OPERATION = 'division';
     const SUBTRACTION_OPERATION = 'subtraction';
     const ADDITION_OPERATION = 'addition';
+    const EXPONENTIATION_OPERATION = 'exponentiation';
 
     private function getDefinitions() : array
     {
@@ -29,6 +34,7 @@ class OperationFactory implements OperationFactoryInterface
             self::DIVISION_OPERATION => Division::class,
             self::SUBTRACTION_OPERATION => Subtraction::class,
             self::MULTIPLICATION_OPERATION => Multiplication::class,
+            self::EXPONENTIATION_OPERATION => Exponentiation::class,
         ];
     }
 

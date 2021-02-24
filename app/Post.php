@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 class Post extends Model
 {
     protected $fillable = [
-        'title', 'body', 'author_id', 'category_id', 'tag_id'
+        'title', 'body', 'author_id', 'category_id',
     ];
 
     protected $table = 'posts';

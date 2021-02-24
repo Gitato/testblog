@@ -1,8 +1,9 @@
 <?php
 namespace App\Services\Calculator\Operations;
+
 use App\Services\Calculator\Interfaces\OperationInterface;
 
-class Multiplication implements OperationInterface
+class Exponentiation implements OperationInterface
 {
     /**
      * @param $firstOperand
@@ -11,7 +12,7 @@ class Multiplication implements OperationInterface
      */
     public function evaluate($firstOperand, $secondOperand)
     {
-        return $firstOperand * $secondOperand;
+
+        return $firstOperand ** $secondOperand;
     }
 }
-

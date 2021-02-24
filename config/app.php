@@ -176,6 +176,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Services\Calculator\CalculatorServiceProvider::class,
+        App\Services\Parser\ParserServiceProvider::class,
 
     ],
 
@@ -231,7 +232,7 @@ return [
 
         'Image' => Intervention\Image\Facades\Image::class,
         'CalculatorService' => App\Facades\CalculatorService::class,
-//        'MultiplyService' => App\Facades\MultiplyService::class,
+        'ParserService' => App\Facades\ParserService::class,
 
 ],
 

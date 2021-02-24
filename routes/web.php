@@ -40,11 +40,10 @@ Route::get('search_category','PostController@search_category');
 Route::get('search_tag','PostController@search_tag');
 
 Route::get('kalculated', 'CalculatorController@final');
-//Route::get('kalculator','CalculatorController@index');
-//Route::get('summation','CalculatorController@summation')->name('sum');
-//Route::get('subtraction','CalculatorController@subtraction');
-//Route::get('multiplication','CalculatorController@multiplication');
-//Route::get('segmentation','CalculatorController@segmentation');
+
+Route::get('parsed_posts','ParseController@index');
+Route::get('show_parsed_post/{id}',['as' => 'post', 'uses' => 'ParseController@show']);
+Route::post('search_parsed_tag','ParseController@search_parsed_tag');
 
 
 

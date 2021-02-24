@@ -16,13 +16,42 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/calc" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da9337f3-a17d-4afd-88a3-8b497f3913bd" name="Default Changelist" comment="">
+    <list default="true" id="da9337f3-a17d-4afd-88a3-8b497f3913bd" name="Default Changelist" comment="Calculator">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testblog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CalculatorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CalculatorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Calculator/CalculatorServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/CalculatorServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Services/Calculator/OperationFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/OperationFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Calculator/Operations/Division.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Division.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Calculator/Operations/Multiplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Multiplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Calculator/Operations/Subtraction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Calculator/Operations/Subtraction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_24_091329_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_24_091329_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/calculated.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/calculator.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kalculated.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kalculator.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +169,8 @@
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/electrolinux/phpquery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kjGKBXkMQO02T2z1zoSR9Gcp3S" />
@@ -149,10 +180,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Services/Calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testwork" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,30 +191,42 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Services/Calculator" />
-      <recent name="$PROJECT_DIR$/app/Services/Calculator/Exceptions" />
-      <recent name="$PROJECT_DIR$/app/Services/Interfaces" />
+      <recent name="C:\composer\testblog\public\css" />
       <recent name="C:\composer\testblog\vendor\rtconner\laravel-tagging\migrations" />
       <recent name="C:\composer\testblog\resources\views\posts" />
+      <recent name="C:\composer\testblog\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Services/Calculator" />
-      <recent name="$PROJECT_DIR$/app/Services/Operations" />
       <recent name="C:\composer\testblog\app\Http\Controllers" />
       <recent name="C:\composer\testblog\app\Services\Controllers" />
       <recent name="C:\composer\testblog\app\Services" />
+      <recent name="C:\composer\testblog\resources\views" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,7 +245,14 @@
       <workItem from="1610529686769" duration="864000" />
       <workItem from="1610542130234" duration="41142000" />
       <workItem from="1611230008660" duration="13485000" />
-      <workItem from="1611561005943" duration="6937000" />
+      <workItem from="1611824466176" duration="83510000" />
+      <workItem from="1612511125854" duration="35726000" />
+      <workItem from="1612941955478" duration="32824000" />
+      <workItem from="1613133113838" duration="24063000" />
+      <workItem from="1613462691617" duration="1289000" />
+      <workItem from="1613465113995" duration="5861000" />
+      <workItem from="1613977888016" duration="418000" />
+      <workItem from="1613981128729" duration="8404000" />
     </task>
     <servers />
   </component>
@@ -214,11 +264,89 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/calc" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612956888548">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1612956888548" />
+    <state x="370" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613129180915">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1613129180915" />
+    <state x="291" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613129685772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="291" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1613129685772" />
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613139506331">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613139506331" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1614152736920">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614152736920" />
+    <state x="0" y="196" key="FileDocumentManager.FileCacheConflict" timestamp="1612437862582">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="196" key="FileDocumentManager.FileCacheConflict/0.0.1280.680@0.0.1280.680" timestamp="1612437862582" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1613991619514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613991619514" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1613991619514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613991619514" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1613991619513">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613991619513" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1613991619514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613991619514" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1612436250986">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1612436250986" />
+    <state width="576" height="446" key="SwitcherDM" timestamp="1613389953060">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="576" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1613389953060" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1611312839595">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611312839595" />
+    <state x="347" y="56" width="587" height="624" key="find.popup" timestamp="1613117035522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="56" width="587" height="624" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1613117035522" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1611826596249">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1611826596249" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1612869750073">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1612869750073" />
   </component>
 </project>
